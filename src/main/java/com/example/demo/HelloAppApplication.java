@@ -20,4 +20,9 @@ public class HelloAppApplication {
 	public String sayBye() {
 		return "Bye My Friend";
 	}
+	@GetMapping("/saySeeYa")
+	public String saySeeYa() {
+		return "See Ya Later";
+	}
+	
 }
